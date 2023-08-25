@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #030236;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 2px solid #fff;
+}
+
+.form {
+  width: 100%;
+  min-height: 0;
+  background: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+.form input[type=text] {
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.form textarea {
+  min-height: 200px;
+  resize: none;
+  overflow: auto;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.form button {
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  color: #fff;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-list li:last-child {
+  border-bottom: none;
+}
+
+.task-list li input[type=checkbox] {
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+}
+
+.task-list button {
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  background-color: #a80909;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.task-list button:hover {
+  background-color: #bf0b0b;
+}
+
